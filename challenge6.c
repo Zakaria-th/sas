@@ -7,7 +7,7 @@ printf("doner r:");
 scanf("%f",&r);
 c=r*3.14*2;
 
-printf("%f",c );
+printf("%.2f",c );
 
 
 
