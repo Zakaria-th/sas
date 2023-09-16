@@ -6,26 +6,30 @@
      
 
      printf("entrer temperature en  fahrentheit \n");
-     scanf("&f",fahrentheit);
+     scanf("&f",Fahrenheit);
 
      
-     Celsius = (Fahrenheit-32)/1.8
+     Celsius = (Fahrenheit-32) / 1.8;
 
      printf("tenmperature en Celsius est : %f\n", Celsius);
+
      if(Celsius < 0){
-        printf("very cold\n")
-     } else if (Celsius >= 0  && Celsius < 10){
+        printf("very cold\n");
+     } 
+     
+     else if (Celsius >= 0  && Celsius < 10){
         printf(" clod\n");
-     } else if (Celsius >= 10 && Celsius < 25){
+     }
+      else if (Celsius >= 10 && Celsius < 25){
         printf("hot\n");
-    
-     } else {
+     } 
+     
+     else {
         printf("very hot\n");
      }
+     
+     
      return 0;
 
-      
-            
-        
-     
+
  }
