@@ -5,11 +5,11 @@ int main(){
 printf("entrer 10 element in tableau");
 
 for(int i=0;i<11;i++){
-scanf("%d",& tableau);
+scanf("%d",&tableau[i]);
 }
 for(int i=0;i<10;i++){
     printf("%d", tableau[i]);
 }
-
+return 0;
 
 }
